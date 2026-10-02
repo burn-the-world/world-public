@@ -53,6 +53,7 @@ The default build targets Mainnet. Testnet checks use `pnpm run build:workers:te
 
 ## Documentation
 
+- [Whitepaper](docs/WHITEPAPER.md)
 - [Rules](app/public-mainnet/docs/V2_UI_RULES.md)
 - [Contract integration](app/public-mainnet/docs/V2_CONTRACT_INTEGRATION.md)
 - [Leaderboard accounting](app/public-mainnet/docs/REIGN_PERFORMANCE.md)

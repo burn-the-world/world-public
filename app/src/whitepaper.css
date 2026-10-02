@@ -1,0 +1,20 @@
+.whitepaper-shell{max-width:1080px;margin:auto;padding:0 36px;color:#dce4df}
+.whitepaper-header{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:30px 0;border-bottom:1px solid #35433d}
+.whitepaper-header .wordmark{font-size:23px;letter-spacing:.18em}
+.whitepaper-header .button{font-size:12px}
+.whitepaper-content{max-width:850px;margin:0 auto;padding:56px 0;font-size:16px;line-height:1.85;overflow-wrap:anywhere}
+.whitepaper-content h1{font-size:56px;letter-spacing:.12em;margin:0;color:#dcc58c;line-height:1.2}
+.whitepaper-content h2{font-size:27px;line-height:1.35;margin:58px 0 22px;color:#dfcc9a;scroll-margin-top:24px}
+.whitepaper-content h1+h2{font-size:22px;margin:18px 0 10px;color:#cad5ce;font-weight:400}
+.whitepaper-content h3{font-size:21px;line-height:1.5;margin:36px 0 14px;color:#dfcc9a;scroll-margin-top:24px}
+.whitepaper-content p{margin:0 0 20px}.whitepaper-content strong{color:#eff1e7}
+.whitepaper-content a,.whitepaper-footer a{color:#daca99;text-decoration:underline;text-underline-offset:4px}
+.whitepaper-content code{font-family:ui-monospace,Consolas,monospace;font-size:.87em;color:#dfd3b0}
+.whitepaper-content pre{overflow-x:auto;white-space:pre;border:1px solid #35433d;border-radius:6px;background:#101d20;padding:22px;line-height:1.65;margin:24px 0;overflow-wrap:normal}
+.whitepaper-content table{display:block;max-width:100%;overflow-x:auto;border-collapse:collapse;margin:24px 0;font-size:14px;line-height:1.6}
+.whitepaper-content th,.whitepaper-content td{border:1px solid #35433d;padding:12px 14px;text-align:left;min-width:120px}
+.whitepaper-content th{background:#1b2b27;color:#e3d5aa;font-weight:600}
+.whitepaper-content ul,.whitepaper-content ol{padding-left:24px;margin:20px 0}
+.whitepaper-content .katex-display{overflow-x:auto;overflow-y:hidden;padding:16px 4px;max-width:100%;font-size:1.05em}
+.whitepaper-footer{display:flex;justify-content:space-between;gap:20px;padding:28px 0 45px;border-top:1px solid #35433d;font-size:13px}
+@media(max-width:640px){.whitepaper-shell{padding:0 20px}.whitepaper-header{padding:20px 0;gap:12px}.whitepaper-header .wordmark{font-size:17px}.whitepaper-header .button{font-size:10px;padding:10px}.whitepaper-content{font-size:15px;line-height:1.8;padding:36px 0}.whitepaper-content h1{font-size:40px}.whitepaper-content h1+h2{font-size:19px}.whitepaper-content h2{font-size:24px;margin-top:40px}.whitepaper-content h3{font-size:19px}.whitepaper-content pre{padding:16px;font-size:12px}.whitepaper-content th,.whitepaper-content td{padding:10px;min-width:115px}}

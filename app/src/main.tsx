@@ -248,6 +248,11 @@ class ErrorBoundary extends React.Component<React.PropsWithChildren, { message?:
   render() { return this.state.message ? <main className="fatal"><h1>WORLD</h1><p role="alert">{t('pageFailure')}</p><button onClick={() => location.reload()}>{t('copy321')}</button></main> : this.props.children }
 }
 async function start() {
+  if (import.meta.env.WORLD_WHITEPAPER_ENABLED && location.pathname.replace(/\/$/, '') === '/whitepaper') {
+    const { default: WhitepaperPage } = await import('./WhitepaperPage')
+    createRoot(document.getElementById('root')!).render(<ErrorBoundary><WhitepaperPage/></ErrorBoundary>)
+    return
+  }
   // The development signer has no private keys and is removed from production builds.
   if (import.meta.env.DEV && import.meta.env.VITE_LOCAL_TEST_WALLET === 'true' && !config.network) {
     const local = await import('./devLocalWallet')
