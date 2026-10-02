@@ -1,0 +1,18 @@
+{
+  "network": "mainnet",
+  "chainId": 56,
+  "name": "BSC Mainnet",
+  "nativeSymbol": "BNB",
+  "walletRpcUrl": "https://bsc-dataseed.bnbchain.org",
+  "explorerUrl": "https://bscscan.com",
+  "publicOrigin": null,
+  "mainnetEnabled": true,
+  "deploymentAddress": "0x2F8e4b4De457aC01992e4628794DBd681f09Be30",
+  "coreAddress": "0x755bae50BcAc16F3b11fc84BCfCFE0a192c009e7",
+  "tokenAddress": "0xB1D67858e8374636Ca4379d2842FB166A2197A55",
+  "profileAddress": "0x33b2FE6F3EBF80eBBE74e8c388C0FEB1717EE2e0",
+  "deploymentBlock": "125288896",
+  "recentBlockWindow": "5000",
+  "rpcHost": "bsc-mainnet.nodereal.io",
+  "rpcSecretBinding": "NODEREAL_MAINNET_RPC_URL"
+}

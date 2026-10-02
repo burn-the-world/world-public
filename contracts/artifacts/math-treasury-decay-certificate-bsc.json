@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "target": "BSC standalone TreasuryDecayBSC / TreasuryDecayConstantsBSC",
+  "verification_kind": "exhaustive mathematical certification, not EVM execution",
+  "method": "rigorous integer-interval constants; exhaustive Q320 truncation margin",
+  "evm_differential_tests": "separate test suite; not claimed by this certificate",
+  "half_life_seconds": 5184000,
+  "remainders_checked": 5183999,
+  "remainder_range_inclusive": [
+    1,
+    5183999
+  ],
+  "q320_error_strict_upper_bound": 46,
+  "minimum_q320_margin_to_next_q256_boundary": 8441285651526,
+  "minimum_margin_remainder_seconds": 3052021,
+  "minimum_margin_independent_q256_floor": "76992940440969746275949369319160989403371624514525677114018763087731474044418",
+  "certified_q256_floors_sha256": "c477d22f674d06552888c98e0ed26900e2310e3af6290e502affd0c91c45f7e6",
+  "started_at_utc": "2026-09-28T07:45:06.826060+00:00",
+  "completed_at_utc": "2026-09-28T07:45:25.253656+00:00",
+  "elapsed_seconds": 18.428,
+  "python_version": "3.12.14",
+  "generator_sha256": "1ca139aed99e8554e450732798afad95457e08e5fef32c7d661ab2e43be9b4b6",
+  "constants_sha256": "36416f469a6c7b1d515acf664070fea6882ba862dd6d12ce9c1bbf2d02edc4b9",
+  "decay_sha256": "9bb93d51b79142ccb25d44a31456ab4f59cc0c33777dd3374e2c47e1e879a461",
+  "vectors_sha256": "d2270ad658df7c5479d1353facd42c64e9455f47fb14110ebbd80a0aaa06adc4",
+  "test_sha256": "7c0be6ddf593368b99cc5b8ee926db246c749e264e08b649177a43bc8cf67307",
+  "production_constants_written": false,
+  "constants_normalization": "UTF-8 BOM, CRLF/LF, outer whitespace, historical generator basename only"
+}

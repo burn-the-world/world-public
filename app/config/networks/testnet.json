@@ -1,0 +1,18 @@
+{
+  "network": "testnet",
+  "chainId": 97,
+  "name": "BSC Testnet",
+  "nativeSymbol": "tBNB",
+  "walletRpcUrl": "https://bsc-testnet-dataseed.bnbchain.org",
+  "explorerUrl": "https://testnet.bscscan.com",
+  "publicOrigin": "https://test.burntheworld.xyz",
+  "mainnetEnabled": false,
+  "deploymentAddress": "0xB0272c944BCC22553cF9869B30f3418be535C3df",
+  "coreAddress": "0x1Bd3815Bec1ac3Bf0ECF3BF81E7D6AccBd875829",
+  "tokenAddress": "0xC5f69e2bD3f43b8593279370071d4D39c993f27f",
+  "profileAddress": "0x30b098ab2535D38044e45D542cb0855D0c32AB36",
+  "deploymentBlock": "133830577",
+  "recentBlockWindow": "5000",
+  "rpcHost": "bsc-testnet.nodereal.io",
+  "rpcSecretBinding": "NODEREAL_RPC_URL"
+}

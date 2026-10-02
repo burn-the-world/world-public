@@ -1,0 +1,46 @@
+[
+  {
+    "kind": "source",
+    "repository": "OpenZeppelin/openzeppelin-contracts",
+    "version": "v5.6.1",
+    "commit": "5fd1781b1454fd1ef8e722282f86f9293cacf256",
+    "source": "https://codeload.github.com/OpenZeppelin/openzeppelin-contracts/zip/5fd1781b1454fd1ef8e722282f86f9293cacf256",
+    "archive_sha256": "b19c7801086ee5cce0e289294dd0f952af8f502ac4d5d1112c16691dd80ee102",
+    "path": "lib/openzeppelin-contracts",
+    "provenance": "Copied from the frozen ETH dependency snapshot; archive hash retained as provenance, not claimed as a fresh network download verification. Vendored-file hashes independently checked."
+  },
+  {
+    "kind": "source",
+    "repository": "foundry-rs/forge-std",
+    "version": "v1.16.2",
+    "commit": "bf647bd6046f2f7da30d0c2bf435e5c76a780c1b",
+    "source": "https://codeload.github.com/foundry-rs/forge-std/zip/bf647bd6046f2f7da30d0c2bf435e5c76a780c1b",
+    "archive_sha256": "8ce7d1e23294970ccb8d7659a6add3daedfd49b6f25d53abd5c5f7e559ec876c",
+    "path": "lib/forge-std",
+    "provenance": "Copied from the frozen ETH dependency snapshot; archive hash retained as provenance, not claimed as a fresh network download verification. Vendored-file hashes independently checked."
+  },
+  {
+    "kind": "tool",
+    "repository": "foundry-rs/foundry",
+    "version": "v1.8.3",
+    "asset": "foundry_v1.8.3_win32_amd64.zip",
+    "source": "https://github.com/foundry-rs/foundry/releases/download/v1.8.3/foundry_v1.8.3_win32_amd64.zip",
+    "sha256": "e4d7302fa708423c8799f5a229dfecef311cfd68b046ce782788096318946304",
+    "published_digest": "sha256:e4d7302fa708423c8799f5a229dfecef311cfd68b046ce782788096318946304",
+    "installation": "Install this pinned tool separately, or provide its executable path. The tool is not required to reside in the original ETH project.",
+    "suggested_install_path": ".tools/foundry",
+    "bundled": false
+  },
+  {
+    "kind": "tool",
+    "repository": "ethereum/solidity",
+    "version": "v0.8.30",
+    "asset": "solc-windows.exe",
+    "source": "https://github.com/argotorg/solidity/releases/download/v0.8.30/solc-windows.exe",
+    "sha256": "ccbd3ed44d5fbd26fe039702d403421f1212d2e8752e3cbe3bfd074986911586",
+    "published_digest": null,
+    "installation": "Install this pinned tool separately, or provide its executable path. The tool is not required to reside in the original ETH project.",
+    "suggested_install_path": ".tools/solc/solc-0.8.30.exe",
+    "bundled": false
+  }
+]

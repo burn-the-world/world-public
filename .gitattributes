@@ -1,0 +1,23 @@
+# Ordinary source and documentation use LF in Git.
+* text=auto eol=lf
+
+# Solidity inputs, pinned dependencies and test fixtures:
+# preserve bytes exactly, including existing line endings.
+/contracts/** -text !eol whitespace=cr-at-eol,-blank-at-eof
+/app/src/abi/** -text !eol whitespace=cr-at-eol,-blank-at-eof
+/app/public/abi/** -text !eol whitespace=cr-at-eol,-blank-at-eof
+/app/public-mainnet/abi/** -text !eol whitespace=cr-at-eol,-blank-at-eof
+
+# Preserve production application bytes.
+/app/src/main.tsx -text !eol whitespace=cr-at-eol,-blank-at-eof
+/app/src/chain.ts -text !eol whitespace=cr-at-eol,-blank-at-eof
+/app/src/domain.ts -text !eol whitespace=cr-at-eol,-blank-at-eof
+/app/worker/index.ts -text !eol whitespace=cr-at-eol,-blank-at-eof
+/app/wrangler.jsonc -text !eol whitespace=cr-at-eol,-blank-at-eof
+
+# Binary assets and test fixtures.
+*.png -text !eol
+*.jpg -text !eol
+*.bin -text !eol
+
+/app/tests/fixtures/contracts/** -text !eol whitespace=cr-at-eol,-blank-at-eof

@@ -1,0 +1,13 @@
+# Install explicitly with pnpm install --frozen-lockfile; scripts never reinstall dependencies.
+verifyDepsBeforeRun: false
+# Only the pinned native build/runtime installers required by Vite and Wrangler.
+allowBuilds:
+  esbuild@0.28.1 || 0.28.2: true
+  workerd@1.20260926.1: true
+minimumReleaseAgeExclude:
+  - '@vitest/mocker@5.0.2'
+  - '@vitest/spy@5.0.2'
+  - viem@2.56.9
+  - vite@8.3.1
+  - vitest@5.0.2
+  - wrangler@4.143.0

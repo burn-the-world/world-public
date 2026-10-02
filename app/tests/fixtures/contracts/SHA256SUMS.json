@@ -1,0 +1,7 @@
+{
+  "artifacts/WorldTokenBSCV2.json": "a1c11dd0f76fe4eef1bad57dfb50b67110f0ccc259ebcce321bdba672707da3d",
+  "artifacts/WorldCoreBSCV2.json": "0d3c89e9073fc12876ca92fd321595c127c9d2bc59b5f2a65069598d4f879888",
+  "artifacts/WorldLandProfileBSCV2.json": "79449c2bf0dd58b3dffce0903bab4a3f9a6b5ca22dbc049ccf1bce05ccb985eb",
+  "artifacts/WorldDeploymentBSCV2.json": "5af12ab2ab67959aebc804c8d5b32b83222ef3fc9e3d0b0ff7ff815799a0a49b",
+  "fixtures/BSCV2Participant.json": "ae3ef77170c6d81e492b559e7bd9123f45b43f93efd8402fd6f6e34bfd0221d2"
+}
