@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>WORLD</title>
+  <circle cx="16" cy="16" r="15" fill="#111315" stroke="#E8B957" stroke-width="1.5"/>
+  <g fill="#E8B957">
+    <path d="M6 9h4l2.5 7-2 4.5z"/>
+    <path d="M14.5 10.5h3L22 24h-3.5L16 17l-2.5 7H10z"/>
+    <path d="M22 9h4l-4.5 11.5-2-4.5z"/>
+  </g>
+</svg>
